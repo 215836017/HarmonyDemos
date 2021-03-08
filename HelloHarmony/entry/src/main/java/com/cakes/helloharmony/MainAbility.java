@@ -1,6 +1,6 @@
-package com.example.helloharmony;
+package com.cakes.helloharmony;
 
-import com.example.helloharmony.slice.MainAbilitySlice;
+import com.cakes.helloharmony.slice.MainAbilitySlice;
 import ohos.aafwk.ability.Ability;
 import ohos.aafwk.content.Intent;
 

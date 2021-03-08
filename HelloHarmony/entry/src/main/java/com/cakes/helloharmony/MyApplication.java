@@ -1,4 +1,4 @@
-package com.example.helloharmony;
+package com.cakes.helloharmony;
 
 import ohos.aafwk.ability.AbilityPackage;
 

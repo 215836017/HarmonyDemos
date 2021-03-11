@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text_1"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_text"
+        ohos:multiple_lines="true"
+        ohos:text="Text是用来显示字符串的组件，在界面上显示为一块文本区域。Text作为一个基本组件，有很多扩展，常见的有按钮组件Button，文本编辑组件TextField。"
+        ohos:text_color="#0ff"
+        ohos:text_size="50"/>
+
+
+    <Text
+        ohos:id="$+id:text_2"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_text"
+        ohos:bottom_margin="15vp"
+        ohos:italic="false"
+        ohos:left_margin="15vp"
+        ohos:left_padding="15vp"
+        ohos:right_padding="15vp"
+        ohos:text="Text"
+        ohos:text_color="#0000FF"
+        ohos:text_font="serif"
+        ohos:text_size="28fp"
+        ohos:text_weight="70"/>
+
+
+    <!--    设置文本对齐方式-->
+    <Text
+        ohos:id="$+id:text_3"
+        ohos:height="100vp"
+        ohos:width="300vp"
+        ohos:background_element="$graphic:background_text"
+        ohos:bottom_margin="15vp"
+        ohos:italic="true"
+        ohos:left_margin="15vp"
+        ohos:left_padding="15vp"
+        ohos:right_padding="15vp"
+        ohos:text="Text"
+        ohos:text_alignment="horizontal_center|bottom"
+        ohos:text_color="#0000FF"
+        ohos:text_font="serif"
+        ohos:text_size="28fp"
+        ohos:text_weight="700"/>
+
+
+    <!--    设置自动换行、最大显示行数和自动调节字体大小。-->
+    <Text
+        ohos:id="$+id:text_4"
+        ohos:height="match_content"
+        ohos:width="90vp"
+        ohos:auto_font_size="true"
+        ohos:background_element="$graphic:background_text"
+        ohos:left_padding="8vp"
+        ohos:max_text_lines="1"
+        ohos:min_height="30vp"
+        ohos:multiple_lines="true"
+        ohos:right_padding="8vp"
+        ohos:text="T"
+        ohos:text_color="#0000FF"
+        ohos:text_font="serif"
+        ohos:text_weight="700"/>
+
+
+<!--   跑马灯效果: 当文本过长时，可以设置跑马灯效果，实现文本滚动显示。前提是文本换行关闭且最大显示行数为1，默认情况下即可满足前提要求-->
+    <Text
+        ohos:id="$+id:text_5"
+        ohos:width="75vp"
+        ohos:height="match_content"
+        ohos:text="TextText"
+        ohos:text_size="28fp"
+        ohos:text_color="#0000FF"
+        ohos:italic="true"
+        ohos:text_weight="700"
+        ohos:text_font="serif"
+        ohos:background_element="$graphic:background_text"/>
+</DirectionalLayout>

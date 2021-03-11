@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <!--    Tablist可以实现多个页签栏的切换，Tab为某个页签。子页签通常放在内容区上方，展示不同的分类。页签名称应该简洁明了，
+           清晰描述分类的内容。-->
+
+    <TabList
+        ohos:id="$+id:tablist_1"
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:normal_text_color="#999999"
+        ohos:orientation="horizontal"
+        ohos:selected_tab_indicator_color="#FFFFFF"
+        ohos:selected_tab_indicator_height="2vp"
+        ohos:selected_text_color="#FFFFFF"
+        ohos:tab_length="140vp"
+        ohos:tab_margin="10vp"
+        ohos:text_alignment="center"/>
+
+<!--    设置默认状态和选中状态的字体颜色和indicator的颜色
+    ohos:normal_text_color="#999999"
+    ohos:selected_text_color="#FFFFFF"
+    ohos:selected_tab_indicator_color="#FFFFFF"
+    ohos:selected_tab_indicator_height="2vp"
+-->
+</DirectionalLayout>

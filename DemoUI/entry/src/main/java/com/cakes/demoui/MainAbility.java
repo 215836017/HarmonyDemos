@@ -13,6 +13,8 @@ public class MainAbility extends Ability {
 //        super.setMainRoute(ButtonSlice.class.getName());
 //        super.setMainRoute(TextFieldSlice.class.getName());
 //        super.setMainRoute(ImageSlice.class.getName());
-        super.setMainRoute(TabListSlice.class.getName());
+//        super.setMainRoute(TabListSlice.class.getName());
+//        super.setMainRoute(PickerSlice.class.getName());
+        super.setMainRoute(DatePickerSlice.class.getName());
     }
 }

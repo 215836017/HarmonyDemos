@@ -20,6 +20,8 @@ public class MainAbility extends Ability {
 //        super.setMainRoute(RadioButtonSlice.class.getName());
 //        super.setMainRoute(CheckboxSlice.class.getName());
 //        super.setMainRoute(ProgressBarSlice.class.getName());
-        super.setMainRoute(ToastDialogSlice.class.getName());
+//        super.setMainRoute(ToastDialogSlice.class.getName());
+//        super.setMainRoute(ScrollViewSlice.class.getName());
+        super.setMainRoute(ListContainerSlice.class.getName());
     }
 }

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:toast_btn_1"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#f0f"
+        ohos:margin="30fp"
+        ohos:text="测试 1:Base Toast"
+        ohos:text_size="30fp"/>
+
+    <Button
+        ohos:id="$+id:toast_btn_2"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#f0f"
+        ohos:margin="30fp"
+        ohos:text="测试 2:Set Position "
+        ohos:text_size="30fp"/>
+
+    <Button
+        ohos:id="$+id:toast_btn_3"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#f0f"
+        ohos:margin="30fp"
+        ohos:text="测试 3:Custom Toast"
+        ohos:text_size="30fp"/>
+
+    <Button
+        ohos:id="$+id:toast_btn_4"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#f0f"
+        ohos:margin="30fp"
+        ohos:text="测试 4:Add an Image"
+        ohos:text_size="30fp"/>
+</DirectionalLayout>

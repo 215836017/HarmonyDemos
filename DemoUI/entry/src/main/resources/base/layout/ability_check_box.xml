@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Checkbox
+        ohos:id="$+id:cb_1"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:margin="10vp"
+        ohos:text="选择 1"
+        ohos:text_size="30fp"/>
+
+    <Checkbox
+        ohos:id="$+id:cb_2"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:margin="10vp"
+        ohos:text="选择 2"
+        ohos:text_size="30fp"/>
+
+    <Checkbox
+        ohos:id="$+id:cb_3"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:margin="10vp"
+        ohos:text="选择 3"
+        ohos:text_size="30fp"/>
+
+    <Checkbox
+        ohos:id="$+id:cb_4"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:margin="10vp"
+        ohos:text="选择 4"
+        ohos:text_size="30fp"/>
+
+    <Checkbox
+        ohos:id="$+id:cb_5"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:margin="10vp"
+        ohos:text="选择 5"
+        ohos:text_size="30fp"/>
+</DirectionalLayout>

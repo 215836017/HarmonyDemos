@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Switch
+        ohos:id="$+id:switch_1"
+        ohos:height="50vp"
+        ohos:width="100vp"
+        ohos:margin="20vp"
+        ohos:text_size="30vp"
+        ohos:text_state_off="关"
+        ohos:text_state_on="开"/>
+</DirectionalLayout>

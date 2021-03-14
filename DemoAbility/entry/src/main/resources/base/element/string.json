@@ -19,6 +19,14 @@
     {
       "name": "HelloWorld",
       "value": "Hello World"
+    },
+    {
+      "name": "myserviceability_description",
+      "value": "hap sample empty service"
+    },
+    {
+      "name": "testserviceability_description",
+      "value": "hap sample empty service"
     }
   ]
 }

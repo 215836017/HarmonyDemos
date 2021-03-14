@@ -45,6 +45,30 @@
         "label": "DemoAbility",
         "type": "page",
         "launchType": "standard"
+      },
+
+      {
+        "name": "com.cakes.demoability.service.MyServiceAbility",
+        "icon": "$media:icon",
+        "description": "$string:myserviceability_description",
+        "type": "service"
+      },
+
+      {
+        "backgroundModes": [
+          "dataTransfer",
+          "audioPlayback",
+          "audioRecording",
+          "pictureInPicture",
+          "voip",
+          "location",
+          "bluetoothInteraction",
+          "wifiInteraction"
+        ],
+        "name": "com.cakes.demoability.service.TestServiceAbility",
+        "icon": "$media:icon",
+        "description": "$string:testserviceability_description",
+        "type": "service"
       }
     ]
   }

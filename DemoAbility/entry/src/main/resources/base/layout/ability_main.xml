@@ -33,4 +33,22 @@
         ohos:text="同一Page Ability中跳转AbilitySlice并返回结果"
         ohos:text_size="15fp"/>
 
+    <Button
+        ohos:id="$+id:main_1_btn_3"
+        ohos:height="30vp"
+        ohos:width="match_parent"
+        ohos:background_element="#ff009988"
+        ohos:margin="10vp"
+        ohos:text="启动/停止Service"
+        ohos:text_size="15fp"/>
+
+    <Button
+        ohos:id="$+id:main_1_btn_4"
+        ohos:height="30vp"
+        ohos:width="match_parent"
+        ohos:background_element="#ff009988"
+        ohos:margin="10vp"
+        ohos:text="连接Service"
+        ohos:text_size="15fp"/>
+
 </DirectionalLayout>

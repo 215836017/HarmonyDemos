@@ -3,7 +3,9 @@ package com.cakes.demoability.slice;
 import com.cakes.demoability.ResourceTable;
 import ohos.aafwk.ability.AbilitySlice;
 import ohos.aafwk.content.Intent;
+import ohos.aafwk.content.Operation;
 import ohos.agp.components.Component;
+import ohos.sysappcomponents.contact.entity.Organization;
 
 /*
 AbilitySlice作为Page的组成单元，其生命周期是依托于其所属Page生命周期的。
@@ -26,6 +28,8 @@ public class MainAbilitySlice extends AbilitySlice implements Component.ClickedL
 
         findComponentById(ResourceTable.Id_main_1_btn_1).setClickedListener(this);
         findComponentById(ResourceTable.Id_main_1_btn_2).setClickedListener(this);
+        findComponentById(ResourceTable.Id_main_1_btn_3).setClickedListener(this);
+        findComponentById(ResourceTable.Id_main_1_btn_4).setClickedListener(this);
     }
 
     @Override
@@ -57,6 +61,13 @@ public class MainAbilitySlice extends AbilitySlice implements Component.ClickedL
 
         } else if (component.getId() == ResourceTable.Id_main_1_btn_2) {
             test2();
+
+        } else if (component.getId() == ResourceTable.Id_main_1_btn_3) {
+            test3();
+
+        } else if (component.getId() == ResourceTable.Id_main_1_btn_4) {
+            test4();
+
         }
     }
 
@@ -66,5 +77,36 @@ public class MainAbilitySlice extends AbilitySlice implements Component.ClickedL
 
     private void test2() {
         presentForResult(new MainAbility3Slice(), new Intent(), 0);
+    }
+
+    private void test3() {
+        // 启动本地设备Service
+//        Intent intent = new Intent();
+//        Operation operation = new Intent.OperationBuilder()
+//                .withDeviceId("")
+//                .withBundleName("com.domainname.hiworld.himusic")
+//                .withAbilityName("com.domainname.hiworld.himusic.ServiceAbility")
+//                .build();
+//        intent.setOperation(operation);
+//        startAbility(intent);
+
+
+        // 启动远程设备Service
+        Intent intent = new Intent();
+        Operation operation = new Intent.OperationBuilder()
+                .withDeviceId("deviceId")
+                .withBundleName("com.domainname.hiworld.himusic")
+                .withAbilityName("com.domainname.hiworld.himusic.ServiceAbility")
+                .withFlags(Intent.FLAG_ABILITYSLICE_MULTI_DEVICE) // 设置支持分布式调度系统多设备启动的标识
+                .build();
+        intent.setOperation(operation);
+        startAbility(intent);
+
+        // 关闭Service
+//        stopAbility(intent)
+    }
+
+    private void test4() {
+
     }
 }

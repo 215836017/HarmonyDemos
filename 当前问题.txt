@@ -1,3 +1,9 @@
+当前Harmony OS 和 DevEco Studio的一些问题
+
 1. 单词补全功能不完善
 2. Previewer面板不能实时刷新， 且手动刷新响应较慢
 3. Previewer在Java代码面板时不会自动隐藏
+4. 使用模板新建Ability时，不在指定的包名下，而是默认的包名路径
+5. HiLog中选不到进程
+
+2021.03.14

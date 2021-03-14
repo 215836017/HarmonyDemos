@@ -1,0 +1,51 @@
+{
+  "app": {
+    "bundleName": "com.cakes.demoability",
+    "vendor": "cakes",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 4,
+      "target": 4,
+      "releaseType": "Beta2"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.cakes.demoability",
+    "name": ".MyApplication",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home",
+              "action_2",
+              "action_3"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.cakes.demoability.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "DemoAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}
